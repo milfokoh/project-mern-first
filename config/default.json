@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "troshina аl",
+    "mongoUri": "mongodb+srv://atrowina:oA3Qf8JXeGd8EjHj@cluster0.vqxp1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "baseUrl" : "http://localhost:5000"
+}

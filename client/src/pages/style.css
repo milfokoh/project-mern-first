@@ -1,0 +1,112 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+.btn-form-req {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: #9cf;
+    border: 1px solid #9cf;
+    border-radius: 1rem;
+    color: white;
+}
+
+.login-input-grid {
+    border-bottom: 1px solid white ;
+    box-shadow: 0 1px 0 0 white ;
+    
+}
+
+.login-registr-input,
+.login-pass-input
+{
+    color: black;
+    border-bottom: 1px solid #9cf;
+}
+
+.label-inp {
+    color: #999 ;
+    font-size: 12px;
+    
+}
+
+.body-row-authent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.row-authent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    border: 3px solid #9cf;
+    border-radius: 10px;
+}
+
+.login-registr {
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: 80px repeat(2, 90px) 150px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.login-title {
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 24px;
+
+}
+
+.login-btn {
+    display: grid;
+    grid-template-columns: repeat(2, 155px);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #9cf;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+}
+
+.row-home {
+    display: grid;
+}
+.row-oth-page {
+    display: grid;
+}
+
+.page-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
